@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+             body {
+            background-image: url("images/whitcity.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            border: .5px solid rgb(154, 154, 185);
+            text-align: left;
+            text-indent: 40px;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(215, 225, 255, 0.8));
+            width:45%;
+            margin: 0 auto;
+        }
+        h1{
+            font-family:'Franklin Gothic Medium';
+        }
+        ul{
+            list-style: none;
+        }
+        a:link{
+            color:rgb(106, 163, 238) 
+        }
+        a:visited{
+            color:rgb(62, 94, 141)
+        }
+        a:hover{
+            color:firebrick
+        }
+        a:active{
+            color:forestgreen
+        }
+        h2{
+            text-indent: 0px;
+            font-family:'Franklin Gothic Medium';  
+            text-align: center;
+        }
+        table,th,td{
+            padding: 10px;
+            margin: auto;
+            border: 1px solid rgb(154, 154, 185);
+        }
+        nav{
+            border: .5px solid rgb(154, 154, 185);
+            text-align: center;
+            background-color:rgba(255, 255, 255, 0.8) ;
+            width:45%;
+            margin: 0 auto;
+        }
+       #overlay{
+           position: fixed;
+           display: none;
+           width: 100%;
+           height: 100%;
+           top: 0;
+           left: 0;
+           right: 0;
+           bottom: 0;
+           background-image:url("images/snowt.gif");
+       }
+       p{
+           font-family:'Segoe UI';
+           margin: 20px;
+       }
+       .center{
+           text-align: center;
+       }
+    </style>
+
+</head>
+<body>
+
+    <div id="overlay" onclick="off()"></div>
+    <div style = "padding:20px"></div>
+    <button onclick="on()">Snow!</button>
+ 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-wt2.html">About</a></li>
+                <li><a href="Market-Audience-Wt2.html">Market Audience</a></li>
+            </ul>
+        </nav> 
+    
+
+    <br>
+
+    <div>
+
+     <header>
+        <h1>WT2 Language Translator</h1>
+    </header>
+    
+    <main>
+       <img src="images/wt2graph.png" alt="Graph showing how the WT2 is used." height="300" width="400">
+
+    <h2>About the WT2 Language Translator</h2>
+    <p>The WT2 Language Translator from the chinese company TimeKettle is a wearable bluetooth translation device. Its appearance is similar to an Apple Airpod with a wireless earbud meant to be placed into the ear and a large charging case. The Wt2 Language Translator can translate 36 languages and 84 accents in real time. To use this device one earpiece should be in both of the users ears, one in one users ear and the other piece in the second users ear. The device listens to what one user is saying and translates it into the other user’s language. It allows for a handsfree mode and a manual touch mode. The WT2 Language translator also has an app that will display text of what one user had said and the translation.</p>
+
+    <h2>Benefits of the WT2 Language Translator</h2>
+    <p>The WT2 Language translator can change the way people can communicate. With the hands free mode allows for an easy way to communicate  without having to read the translation or require both parties to have their own pair. For instance,this product can be used in a business meeting between two people speaking different languages. With the translator they can communicate fast and efficiently. </p>
+
+        <img src="images/wt2phone.jpg" alt="The WT2 earpieces on top of a phone." height="400" width="400">
+
+    <h2>Negative Effects of WT2 Language Translator</h2>
+    <p>The negatives to this device is the price. The WT2 Language Translator costs 239.99$, which is double the amount of the Pulomi TT Easy Trans at 100$. It also requires a smartphone to be connected to the earpieces. The earpieces only work through the app, which requires an internet connection, to translate the language it is hearing. The translation is not perfect, which could cause some issues in some situations. </p>
+          <br>
+    </main>
+</div>
+
+    <script>
+    function on(){
+        document.getElementById("overlay").style.display = "block";
+    }
+    function off(){
+        document.getElementById("overlay").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
