@@ -6,21 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-       body {
+        body {
             background-image: url("images/whitcity.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
-        div{
-            border: .5px solid rgb(154, 154, 185);
-            text-align: left;
-            text-indent: 40px;
-            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(215, 225, 255, 0.8));
-            width:45%;
-            margin: 0 auto;
-        }
-        h1{
-            font-family:'Franklin Gothic Medium';
+       .intro{
+           margin: 0 auto;
+           border: 2px solid rgb(181, 181, 255);
+           background-color: rgba(255, 255, 255, 0.89);
+       }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
         }
         ul{
             list-style: none;
@@ -95,16 +93,19 @@
         <h1>WT2 Language Translator</h1>
     </header>
     <main>
-
-        <div id="center">
+<div class="row">
+        <div id="wt2image">
             <img src="images/wt2.png" alt="Two white earpieces and a round charging case" height="300" width="400">
         </div>
-        
-        
-        <p>The WT2 language translator is an easy way to allow communication between two people who speak different languages. With it the barrier of language can be overcome.</p>
-        <div id="center">
+        <div id="caseimg">
             <img src="images/wt2case.jpg" alt="Wt2 case" height="300" width="400">
         </div>
+    </div>
+
+    <div class="intro">
+        <p>The WT2 language translator is an easy way to allow communication between two people who speak different languages. With it the barrier of language can be overcome.</p>
+    </div>
+
        
         <br>
         <br>
